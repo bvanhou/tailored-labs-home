@@ -53,8 +53,8 @@
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li class="menu-active"><a href="index.html">Home</a></li>
-						<li class="menu-has-children"><a href="">Learning Management</a>
+						<li class=""><a href="index.html">Home</a></li>
+						<li class="menu-active menu-has-children"><a href="">Learning Management</a>
 							<ul>
 								<li><a href="corp-lms.html">Corporate</a></li>
 								<li><a href="edu-lms.html">Education</a></li>
@@ -443,7 +443,9 @@
 	<!--  End Footer Elements -->
 	<!-- Copyright -->
 	<div class="footer-copyright text-center pt-o pb-3">
-		© 2018 Copyright Tailored Labs, LLC
+		© <script>
+			document.write(new Date().getFullYear());
+		</script> Copyright Tailored Labs, LLC
 	</div>
 		<!-- Copyright -->
 	</footer>
